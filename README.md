@@ -13,7 +13,7 @@ Or, once the MS Login button is implemented, it will automatically log into the 
 ## Create a resoucre group with the following services:
 <img width="1432" alt="Screen Shot 2022-10-22 at 4 34 33 PM" src="https://user-images.githubusercontent.com/50755701/197341939-82c254af-7525-4a40-9d34-d53ae45dbfab.png">
 
-# Create an SQL Database in Azure that contains a user table, an article table, and data in each table (populated with the scripts provided in the SQL Scripts folder).
+## Create an SQL Database in Azure that contains a user table, an article table, and data in each table (populated with the scripts provided in the SQL Scripts folder).
 <img width="1426" alt="Screen Shot 2022-10-21 at 6 06 06 PM" src="https://user-images.githubusercontent.com/50755701/197342147-1374d7bc-9c66-4424-afa1-87c3d6d5217a.png">
 <img width="1440" alt="Screen Shot 2022-10-21 at 6 06 40 PM" src="https://user-images.githubusercontent.com/50755701/197342153-4ba2507c-5592-40d2-91c1-b987d2a54b71.png">
 <img width="1335" alt="Screen Shot 2022-10-21 at 6 07 02 PM" src="https://user-images.githubusercontent.com/50755701/197342160-af6d297c-ec5f-499b-bc99-295d8ad245b9.png">
