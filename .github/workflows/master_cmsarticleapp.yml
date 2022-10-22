@@ -31,6 +31,7 @@ jobs:
         run: |
              pip install -r requirements.txt
              pip install wheel
+             pip install pycparser==2.19
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
