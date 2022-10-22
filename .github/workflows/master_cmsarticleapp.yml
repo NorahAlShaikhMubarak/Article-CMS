@@ -29,6 +29,7 @@ jobs:
       
       - name: Install dependencies
         run: pip3 install -r requirements.txt
+         pip3 install pycparser==2.19
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
