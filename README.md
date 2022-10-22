@@ -9,43 +9,39 @@ This project is a Python web application built using Flask. The user can log in 
 
 Or, once the MS Login button is implemented, it will automatically log into the `admin` account.
 
-## Project Instructions (For Student)
+# Submission:
+Create a resoucre group with the following services:
+<img width="1432" alt="Screen Shot 2022-10-22 at 4 34 33 PM" src="https://user-images.githubusercontent.com/50755701/197341939-82c254af-7525-4a40-9d34-d53ae45dbfab.png">
 
-You are expected to do the following to complete this project:
-1. Create a Resource Group in Azure.
-2. Create an SQL Database in Azure that contains a user table, an article table, and data in each table (populated with the scripts provided in the SQL Scripts folder).
-    - Provide a screenshot of the populated tables as detailed further below.
-3. Create a Storage Container in Azure for `images` to be stored in a container.
-    - Provide a screenshot of the storage endpoint URL as detailed further below.
-4. Add functionality to the Sign In With Microsoft button. 
-    - This will require completing TODOs in `views.py` with the `msal` library, along with appropriate registration in Azure Active Directory.
-5. Choose to use either a VM or App Service to deploy the FlaskWebProject to Azure. Complete the analysis template in `WRITEUP.md` (or include in the README) to compare the two options, as well as detail your reasoning behind choosing one or the other. Once you have made your choice, go through with deployment.
-6. Add logging for whether users successfully or unsuccessfully logged in.
-    - This will require completing TODOs in `__init__.py`, as well as adding logging where desired in `views.py`.
-7. To prove that the application in on Azure and working, go to the URL of your deployed app, log in using the credentials in this README, click the Create button, and create an article with the following data:
-	- Title: "Hello World!"
-	- Author: "Jane Doe"
-	- Body: "My name is Jane Doe and this is my first article!"
-	- Upload an image of your choice. Must be either a .png or .jpg.
-   After saving, click back on the article you created and provide a screenshot proving that it was created successfully. Please also make sure the URL is present in the screenshot.
-8. Log into the Azure Portal, go to your Resource Group, and provide a screenshot including all of the resources that were created to complete this project. (see sample screenshot in "example_images" folder)
-9. Take a screenshot of the Redirect URIs entered for your registered app, related to the MS Login button.
-10. Take a screenshot of your logs (can be from the Log stream in Azure) showing logging from an attempt to sign in with an invalid login, as well as a valid login.
+# Create an SQL Database in Azure that contains a user table, an article table, and data in each table (populated with the scripts provided in the SQL Scripts folder).
+<img width="1426" alt="Screen Shot 2022-10-21 at 6 06 06 PM" src="https://user-images.githubusercontent.com/50755701/197342147-1374d7bc-9c66-4424-afa1-87c3d6d5217a.png">
+<img width="1440" alt="Screen Shot 2022-10-21 at 6 06 40 PM" src="https://user-images.githubusercontent.com/50755701/197342153-4ba2507c-5592-40d2-91c1-b987d2a54b71.png">
+<img width="1335" alt="Screen Shot 2022-10-21 at 6 07 02 PM" src="https://user-images.githubusercontent.com/50755701/197342160-af6d297c-ec5f-499b-bc99-295d8ad245b9.png">
+<img width="1440" alt="Screen Shot 2022-10-21 at 6 07 14 PM" src="https://user-images.githubusercontent.com/50755701/197342162-9737baee-95fa-4f63-8a3e-aa36fb38e5f0.png">
+<img width="1420" alt="Screen Shot 2022-10-22 at 4 37 24 PM" src="https://user-images.githubusercontent.com/50755701/197342175-8ec045ce-4376-4fb0-b41c-f7094cbafd6c.png">
 
-## example_images Folder
+# Create a Storage Container in Azure for `images` to be stored in a container.
+<img width="1438" alt="Screen Shot 2022-10-21 at 6 25 34 PM" src="https://user-images.githubusercontent.com/50755701/197342393-e9906518-6382-48ca-a621-939a6a764ce2.png">
+<img width="1389" alt="Screen Shot 2022-10-22 at 4 28 57 PM" src="https://user-images.githubusercontent.com/50755701/197342538-407ab1ed-10b2-4bf2-8b3b-71cd8d395028.png">
 
-This folder contains sample screenshots that students are required to submit in order to prove they completed various tasks throughout the project.
+# Sign In With Microsoft button + username and password successful attemp:
+<img width="1012" alt="Screen Shot 2022-10-22 at 4 22 19 PM" src="https://user-images.githubusercontent.com/50755701/197342594-e42d9946-74c2-44ed-a7ff-0e2fef927e13.png">
+<img width="1308" alt="Screen Shot 2022-10-22 at 4 22 40 PM" src="https://user-images.githubusercontent.com/50755701/197342595-87269f90-2c97-426f-b674-b8d23576c01c.png">
+<img width="1300" alt="Screen Shot 2022-10-22 at 4 21 33 PM" src="https://user-images.githubusercontent.com/50755701/197342576-b72eb450-59fd-4683-bf9e-279ab97415f4.png">
+<img width="1309" alt="Screen Shot 2022-10-22 at 4 21 59 PM" src="https://user-images.githubusercontent.com/50755701/197342592-618801f1-32ea-417b-b3ed-72e2cbbaf930.png">
 
-1. article-cms-solution.png is a screenshot from running the FlaskWebProject on Azure and prove that the student was able to create a new entry. The Title, Author, and Body fields must be populated to prove that the data is being retrieved from the Azure SQL Database while the image on the right proves that an image was uploaded and pulled from Azure Blob Storage.
-2. azure-portal-resource-group.png is a screenshot from the Azure Portal showing all of the contents of the Resource Group the student needs to create. The resource group must (at least) contain the following:
-	- Storage Account
-	- SQL Server
-	- SQL Database
-	- Resources related to deploying the app
-3. sql-storage-solution.png is a screenshot showing the created tables and one query of data from the initial scripts.
-4. blob-solution.png is a screenshot showing an example of blob endpoints for where images are sent for storage.
-5. uri-redirects-solution.png is a screenshot of the redirect URIs related to Microsoft authentication.
-6. log-solution.png is a screenshot showing one potential form of logging with an "Invalid login attempt" and "admin logged in successfully", taken from the app's Log stream. You can customize your log messages as you see fit for these situations.
+# Create an article with the following data
+<img width="790" alt="Screen Shot 2022-10-22 at 4 26 19 PM" src="https://user-images.githubusercontent.com/50755701/197342672-405b6d41-da5c-429a-8c20-108d368a2856.png">
+<img width="1203" alt="Screen Shot 2022-10-22 at 4 26 31 PM" src="https://user-images.githubusercontent.com/50755701/197342674-877b9766-0dd8-4b9c-952f-ada6eadfc0f0.png">
+
+# Stroge account after uploading the image from the app
+<img width="1322" alt="Screen Shot 2022-10-22 at 4 58 12 PM" src="https://user-images.githubusercontent.com/50755701/197343078-8bae1c85-70f9-48e6-99b7-defe10f35e2f.png">
+
+# Redirect URI for the registered app
+<img width="1329" alt="Screen Shot 2022-10-22 at 4 55 13 PM" src="https://user-images.githubusercontent.com/50755701/197342922-020798b1-cddb-45eb-bac4-7fd56dfba302.png">
+
+# Log stream of the application
+<img width="1427" alt="Screen Shot 2022-10-22 at 4 33 23 PM" src="https://user-images.githubusercontent.com/50755701/197342941-7df77e47-3cf4-4e48-91be-c1d881fb947a.png">
 
 ## Dependencies
 
