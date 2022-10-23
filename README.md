@@ -55,6 +55,16 @@ All Python dependencies are stored in the requirements.txt file. To install them
 1. In the Solution Explorer, expand "Python Environments"
 2. Right click on "Python 3.7 (64-bit) (global default)" and select "Install from requirements.txt"
 
+## Running the application locally:
+1. Create virtual environment 
+python3 -m pip install virtualenv
+python3 -m virtualenv venv # create a new venv in ./venv
+source ./venv/bin/activate # activate your new venv
+2. Install all the packages:
+pip install -r requirements.txt  
+3. Run the application:
+python application.py
+
 ## Troubleshooting
 
 - Mac users may need to install `unixodbc` as well as related drivers as shown below:
