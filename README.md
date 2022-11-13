@@ -58,8 +58,11 @@ All Python dependencies are stored in the requirements.txt file. To install them
 ## Running the application locally:
 1. Create virtual environment 
 python3 -m pip install virtualenv
-python3 -m virtualenv venv # create a new venv in ./venv
-source ./venv/bin/activate # activate your new venv
+python3 -m virtualenv venv
+## create a new venv in
+./venv source 
+## activate your new venv
+. /venv/bin/activate 
 2. Install all the packages:
 pip install -r requirements.txt  
 3. Run the application:
